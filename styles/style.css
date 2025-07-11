@@ -1,0 +1,140 @@
+body{
+    margin-top: -50px;
+    padding: 0px;
+}
+
+/* Shared Styles */
+.shared-btn-class{
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 36px;
+    border:  none;
+    border-radius: 10px;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Header Section Styling */
+nav{
+    max-width: 1140px;
+    margin: 0px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logo h3{
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 800;
+    color: #4E47FF;
+}
+/* .nav-btn button{
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 36px;
+    border:  none;
+    border-radius: 10px;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+} */
+
+/* Banner Section Styling */
+.banner{
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+}
+.banner h1{
+    font-family: Raleway;
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    margin-top: 158px;
+    margin-left: 117.5px;
+    margin-right: 117.5px;
+    margin-bottom: 37px;
+}
+.banner button{
+    margin-bottom: 152px;
+}
+header{
+    margin-top: 0px;
+    background-image: url(../Assets/Hero-bg.png);
+    margin-bottom: 116px;
+}
+
+/* Action Section Styling */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 220px;
+}
+.action h2{
+    font-size: 42px;
+    font-family: Raleway;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.action p{
+    font-family: Raleway;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 23px;
+}
+.action-image img{
+    width: 403px;
+    height: 328px;
+    border: none;
+    border-radius: 48px;
+}
+
+/* Productive User Section Styling */
+.productive-users{
+    background-color: rgba(78, 71, 255, 0.1);
+    font-family: Raleway;
+    padding: 50px 142px;
+    margin-top: 116px;
+    border-radius: 24px;
+    margin-bottom: 137px;
+}
+.productive-users h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    margin-bottom: 0px;
+}
+.stats{
+    font-family: Inter;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.stat h1{
+    margin-top: 40px;
+    text-align: center;
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.stat p{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
