@@ -1,6 +1,7 @@
 body{
     margin-top: -50px;
     padding: 0px;
+    background-color: #f5f8ff;
 }
 
 /* Shared Styles */
@@ -137,4 +138,106 @@ main{
     margin-top: 0px;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+}
+
+/* User Review Section */
+.user-review{
+    margin-bottom: 137px;
+}
+.user-review h2{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    font-family: Raleway;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 24px;
+}
+.review-card-heading{
+    font-weight: bold;
+    font-size: 20px;
+    color: #252432;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-family: Inter;
+}
+.review{
+    margin-top: 0px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    color: #010101bb;
+    font-family: Inter;
+    margin-bottom: 12px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: Inter;
+    margin-top: 0px;
+}
+.profile-pic img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+.reviewer-name{
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 0px;
+}
+.date{
+    font-size: 18px;
+    color: gray;
+    margin-top: 0px;
+}
+.review-card{
+    padding: 24px;
+    width: 300px;
+    background-color: white;
+}
+.review-cards{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Optional Section Styles */
+.optional{
+    text-align: center;
+    background-color: white;
+    padding: 71px 150px;
+    border-radius: 14px;
+    margin-bottom: 100px;
+}
+.optional h2{
+    font-family: Raleway;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.optional p{
+    font-family: Inter;
+    font-size: 20px;
+    color: gray;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.optional button{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.optional img{
+    width: 840px;
+    height: 364.77px;
+    border: none;
+    border-radius: 48px;
 }
