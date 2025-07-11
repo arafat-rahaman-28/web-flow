@@ -241,3 +241,53 @@ main{
     border: none;
     border-radius: 48px;
 }
+
+/* Form section styling */
+.contact h1{
+    font-size: 97px;
+    font-weight: bold;
+    color: black;
+    font-family: Raleway;
+    width: 528px;
+    
+}
+.contact {
+    padding: 71px 0px;
+    display: flex;
+    align-items: center;
+    gap: 115px;
+}
+.contact-form{
+    width: 497px;
+}
+.label-styles{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.input-styles{
+    background-color: white;
+    padding: 20px 32px;
+    font-family: Inter;
+    font-size: 20px;
+    width: 87%;
+    border: none;
+    margin: 0px;
+    border-radius: 10px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.contact-btn{
+    background-color: #4E47FF;
+    color: white;
+    padding: 20px 32px;
+    border:  none;
+    border-radius: 10px;
+    width: 100%;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
