@@ -8,7 +8,7 @@ body{
 .shared-btn-class{
     background-color: #4E47FF;
     color: white;
-    padding: 12px 36px;
+    padding: 14px 36px;
     border:  none;
     border-radius: 10px;
 
@@ -124,6 +124,7 @@ main{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: 158px;
 }
 .stat h1{
     margin-top: 40px;
@@ -328,4 +329,19 @@ footer p{
 }
 .footer-links{
     margin-top: 30px;
+}
+
+/* Hover effects for the buttons */
+button{
+    transition: background-color 0.15s linear  0.15s;
+}
+button:hover{
+    background-color: #1a12ff;
+    cursor: pointer;
+}
+a{
+    transition: color 0.15s linear 0.15s;
+}
+a:hover{
+    color: #4E47FF;
 }
